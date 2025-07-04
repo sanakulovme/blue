@@ -2,6 +2,12 @@ import React from "react";
 import { Calendar, ArrowRight } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 // import  folders images
+import blog1 from "../images/blog1.png";
+import img11 from "../images/Рисунок11.jpg";
+import img15 from "../images/Рисунок15.jpg";
+import img18 from "../images/Рисунок18.png";
+import img17 from "../images/Рисунок17.png";
+import img12 from "../images/Рисунок12.jpg";
 
 
 const Blog: React.FC = () => {
@@ -10,65 +16,66 @@ const Blog: React.FC = () => {
   const blogPosts = [
     {
       id: 1,
-      image: "/images/blog1.png",
+      image: blog1,
       date: "2024-01-15",
       title: {
-        en: "Standard penetration test (SPT) is a measurement of the number of blows N required for penetration (passage of the sampling device into the soil or rock).",
-        ru: "Стандартное пенетрационное испытание (standard penetration test, SPT) измерение количества ударов N, необходимое для пенетрации (прохождения устройства отбора в грунт, или породу).",
-        uz: "Standart penetratsion test (SPT) penetratsiya uchun zarur bo'lgan N zarbalar sonini o'lchash (namuna olish moslamasining tuproq yoki toshga o'tishi).",
+        en: "Standard penetration test (SPT) is a measurement...",
+        ru: "Стандартное пенетрационное испытание...",
+        uz: "Standart penetratsion test (SPT)...",
       },
     },
     {
       id: 2,
-      image: "/images/Рисунок11.jpg",
+      image: img11,
       date: "2024-01-10",
       title: {
-        en: "Working moment of performing electrical exploration works using the Vertical Electrical Sounding (VES) method.",
-        ru: "Рабочий момент выполнения электроразведочных работ методом Вертикальные электрические зондирования (ВЭЗ) .",
-        uz: "Vertikal elektr tovushi (VES) usulidan foydalangan holda elektr qidiruv ishlarini bajarishning ish momenti.",
+        en: "Working moment of performing electrical exploration...",
+        ru: "Рабочий момент выполнения электроразведочных работ...",
+        uz: "Vertikal elektr tovushi (VES) usuli...",
       },
     },
     {
       id: 3,
-      image: "/images/Рисунок15.jpg",
+      image: img15,
       date: "2024-01-05",
       title: {
-        en: "Chemical analysis of natural water and aqueous extract of soils for the needs of engineering and geological surveys.",
-        ru: "Химического анализа природной воды и водной вытяжки грунтов для нужд инженерно-геологических изысканий.",
-        uz: "Muhandislik-geologik tadqiqotlar ehtiyojlari uchun tabiiy suv va tuproqlarning suvli ekstraktining kimyoviy tahlili.",
+        en: "Chemical analysis of natural water...",
+        ru: "Химического анализа природной воды...",
+        uz: "Muhandislik-geologik tadqiqotlar uchun...",
       },
     },
     {
       id: 4,
-      image: "/images/Рисунок18.png",
+      image: img18,
       date: "2024-01-05",
       title: {
-        en: "Laboratory sieves for mechanical analysis for sand grain size distribution",
-        ru: "Лабораторные сита для механического анализа для распределения размеров песчинки",
-        uz: "Qum donalari hajmini taqsimlash uchun mexanik tahlil qilish uchun laboratoriya elaklari.",
-      },
-    },
-    {
-      id: 4,
-      image: "/images/Рисунок17.png",
-      date: "2024-01-05",
-      title: {
-        en: "Laboratory studies of soils are carried out to determine their composition, condition, physical and mechanical properties.",
-        ru: "Лабораторные исследования грунтов проводятся для определения их состава, состояния, физических, механических ",
-        uz: "Tuproqlarning tarkibi, holati, fizik-mexanik xossalarini aniqlash uchun tuproqlarni laboratoriya tadqiqotlari olib boriladi.",
+        en: "Laboratory sieves for mechanical analysis...",
+        ru: "Лабораторные сита для механического анализа...",
+        uz: "Qum donalari hajmini tahlil qilish uchun elaklar...",
       },
     },
     {
       id: 5,
-      image: "/images/Рисунок12.jpg",
+      image: img17,
       date: "2024-01-05",
       title: {
-        en: "Working moment of impact production for excitation of longitudinal and transverse waves",
-        ru: "Рабочий момент производства удара для возбуждений продольных и поперечных волн",
-        uz: "Uzunlamasına va ko'ndalang to'lqinlarni qo'zg'atish uchun zarba ishlab chiqarishning ishchi momenti",
+        en: "Laboratory studies of soils...",
+        ru: "Лабораторные исследования грунтов...",
+        uz: "Tuproqlarning fizik-mexanik xossalari...",
+      },
+    },
+    {
+      id: 6,
+      image: img12,
+      date: "2024-01-05",
+      title: {
+        en: "Working moment of impact production...",
+        ru: "Рабочий момент производства удара...",
+        uz: "To‘lqinlarni qo‘zg‘atish uchun zarba...",
       },
     },
   ];
+  
 
   return (
     <section id="blog" className="py-20 bg-white">
