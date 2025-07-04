@@ -10,7 +10,7 @@ const Blog: React.FC = () => {
   const blogPosts = [
     {
       id: 1,
-      image: "../src/images/blog1.png",
+      image: "/images/blog1.png",
       date: "2024-01-15",
       title: {
         en: "Standard penetration test (SPT) is a measurement of the number of blows N required for penetration (passage of the sampling device into the soil or rock).",
@@ -20,7 +20,7 @@ const Blog: React.FC = () => {
     },
     {
       id: 2,
-      image: "../src/images/Рисунок11.jpg",
+      image: "/images/Рисунок11.jpg",
       date: "2024-01-10",
       title: {
         en: "Working moment of performing electrical exploration works using the Vertical Electrical Sounding (VES) method.",
@@ -30,7 +30,7 @@ const Blog: React.FC = () => {
     },
     {
       id: 3,
-      image: "../src/images/Рисунок15.jpg",
+      image: "/images/Рисунок15.jpg",
       date: "2024-01-05",
       title: {
         en: "Chemical analysis of natural water and aqueous extract of soils for the needs of engineering and geological surveys.",
@@ -40,7 +40,7 @@ const Blog: React.FC = () => {
     },
     {
       id: 4,
-      image: "../src/images/Рисунок18.png",
+      image: "/images/Рисунок18.png",
       date: "2024-01-05",
       title: {
         en: "Laboratory sieves for mechanical analysis for sand grain size distribution",
@@ -50,7 +50,7 @@ const Blog: React.FC = () => {
     },
     {
       id: 4,
-      image: "../src/images/Рисунок17.png",
+      image: "/images/Рисунок17.png",
       date: "2024-01-05",
       title: {
         en: "Laboratory studies of soils are carried out to determine their composition, condition, physical and mechanical properties.",
@@ -60,7 +60,7 @@ const Blog: React.FC = () => {
     },
     {
       id: 5,
-      image: "../src/images/Рисунок12.jpg",
+      image: "/images/Рисунок12.jpg",
       date: "2024-01-05",
       title: {
         en: "Working moment of impact production for excitation of longitudinal and transverse waves",
